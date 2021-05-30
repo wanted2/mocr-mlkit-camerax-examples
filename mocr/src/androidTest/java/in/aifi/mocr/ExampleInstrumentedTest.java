@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("in.aifi.visualpipe", appContext.getPackageName());
+        assertEquals("in.aifi.mocr", appContext.getPackageName());
     }
 }
